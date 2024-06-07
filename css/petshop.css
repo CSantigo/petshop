@@ -130,17 +130,26 @@ h2{
 }
 
 footer{
+    padding: 50px;
+    margin: auto;
+    background-color:gray;
+}
+
+.container-footer{
+    text-align: end;
+    text-decoration: none;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.texto-center{
+    font-size: 18px;
+    justify-content: center;
+    align-content: center;
     text-align: center;
-
 }
-
-hr {
-    height: 4px;
-    background-color: #6dd432;
-    border: none;
-}
-
-a
 /* COMANDOS GIT
 git init
 git branch -M main
